@@ -4,7 +4,14 @@
 
 # `#02` Python: Podstawowy frontend
 
-Tutaj treść
+Znalazłeś w sieci bardzo fajne rozsuwane menu (ang. accordion menu) autorstwa `@anzjoy (Anz Joy)`, które działa bez wykorzystania JavaScriptu. Niestety okazało się, że w kodzie brakuje części selektorów.
+
+Na szczęście ktoś zostawił komentarze, które pozwolą Ci uzupełnić brakujące elementy w pliku `./styles/index.css`.
+Dodatkowo w nawiasach masz też informacje na temat specyficzności danego selektora.
+
+Efekt ma być zbliżony do tego poniżej:
+
+![](./images/demo.gif)
 
 
 &nbsp;
