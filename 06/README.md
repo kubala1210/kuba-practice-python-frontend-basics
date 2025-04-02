@@ -4,19 +4,17 @@
 
 # `#06` Python: Podstawowy frontend
 
-Twóim zdaniem jest osiagnięcie odtworzenie widoku, który znajdziesz poniżej
+Twóim zdaniem jest odtworzenie widoku, który znajdziesz poniżej
 
 ![](./mobile.png)
 
-Mamy tutaj tzw. [cards](https://getbootstrap.com/docs/4.0/components/card/#card-decks).
+Mamy tutaj tzw. [cards](https://getbootstrap.com/docs/4.0/components/card/#card-decks). W naszym przypadku mamy grupę elementów, która składa się z:
 
-W naszym przypadku mamy grupę elementów, która składa się z:
+- **nagłówka** - obrazek, który jest dostosowany do szerokości elementu (`max-width: 100%`)
+- **treści** - nagłówek oraz tekst
+- **stopki** - tekst, który jest doczepiony do dolnej krawędzi elementu (użyj `position: relative/absolute`)
 
-- w nagłówku mamy obrazek, który jest dostosowany do szerokości elementu
-- treść elementu to nagłówek oraz tekst
-- stopka to tekst, który jest doczepiony do dolnej krawędzi elementu (użyj `position: relative/absolute`)
-
-Jeśli szerokość dostępnej przestrzeni przekroczy 600px (tzw. breakpoint) to należy zmienić układ (użyj tzw. media query) elementów na taki, aby całośc wyświetlała sie w jednym wierszu jak na obrazie poniżej.
+Jeśli szerokość dostępnej przestrzeni przekroczy 600px (tzw. breakpoint) to należy zmienić układ elementów na taki, aby całośc wyświetlała sie w jednym wierszu jak na obrazie poniżej (użyj media query).
 
 ![](./desktop.png)
 
