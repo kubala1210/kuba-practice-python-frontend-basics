@@ -12,7 +12,7 @@ Mamy tutaj tzw. [cards](https://getbootstrap.com/docs/4.0/components/card/#card-
 
 - **nagłówka** - obrazek, który jest dostosowany do szerokości elementu (`max-width: 100%`)
 - **treści** - nagłówek oraz tekst
-- **stopki** - tekst, który jest doczepiony do dolnej krawędzi elementu (użyj `position: relative/absolute`)
+- **stopki** - tekst, który jest doczepiony do dolnej krawędzi elementu (użyj `position: relative/absolute` w wersji desktopowej)
 
 Jeśli szerokość dostępnej przestrzeni przekroczy 600px (tzw. breakpoint) to należy zmienić układ elementów na taki, aby całośc wyświetlała sie w jednym wierszu jak na obrazie poniżej (użyj media query).
 
