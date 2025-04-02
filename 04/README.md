@@ -4,7 +4,16 @@
 
 # `#04` Python: Podstawowy frontend
 
-Tutaj treść
+Na stronach internetowych znajdziesz różne menu – mniej lub bardziej rozbudowane. 
+
+Tym razem Twoim zadaniem bedzie wykonanie menu, które zawiera 3 poziomy:
+
+![](./assets/demo.png)
+
+Podpowiedzi:
+- kolory menu możesz pobrać za pomocą dodatku do przeglądarki Chrome: [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp),
+- strzałki uzyskasz przy pomocy znaku większości/mniejszości odpowiednio odwróconego przy pomocy [transform: rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate).
+
 
 
 &nbsp;
