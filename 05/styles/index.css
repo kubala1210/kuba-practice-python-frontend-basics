@@ -1,0 +1,122 @@
+.section1 {
+    width: 100%;
+    height: 100px;
+    border: 10px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection {
+    width: 75%;
+    height: 75%;
+    border: 8px solid blue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75%;
+    width: 25%;
+    background-color: yellow;
+}
+
+.menu {
+    height: 75%;
+    width: 50%;
+    background-color: yellow;
+}
+
+.section2 {
+    width: 100%;
+    height: 250px;
+    border: 10px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection2 {
+    width: 75%;
+    height: 75%;
+    border: 8px solid blue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.columns2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column1 {
+    height: 100px;
+    background-color: yellow;
+}
+
+.column2 {
+    height: 100px;
+    background-color: yellow;
+}
+
+.column3 {
+    height: 100px;
+    background-color: yellow;
+}
+
+.section3 {
+    width: 100%;
+    height: 250px;
+    border: 10px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection3 {
+    width: 75%;
+    height: 75%;
+    border: 8px solid blue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    border: 10px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subfooter {
+    width: 75%;
+    height: 75%;
+    border: 8px solid blue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subfooter a {
+    height: 75%;
+    width: 20%;
+    background-color: yellow;
+}
