@@ -1,5 +1,5 @@
 .navbar {
-    overflow: hidden;
+    display: flex;
     background-color: rebeccapurple;
 }
 
@@ -13,8 +13,7 @@
 }
 
 .subnav {
-    float: left;
-    overflow: hidden;
+    position: relative;
 }
 
 .subnav .subnavbtn {
@@ -33,13 +32,19 @@
     background-color: red;
 }
 
+.subnav-item {
+    position: relative;
+}
+
 .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
+    top: 100%;
     background-color: red;
     width: 100%;
-    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .subnav-content a {
@@ -60,12 +65,16 @@
 .secline-subnav-content {
     display: none;
     position: absolute;
-    top: 0;
     left: 100%;
+    top: 0;
+    height: 45px;
     background-color: darkred;
-    min-width: 160px;
-    z-index: 1;
+    width: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
 
 .subnav-content a:hover+.secline-subnav-content,
 .secline-subnav-content:hover {
